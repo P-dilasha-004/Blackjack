@@ -156,4 +156,5 @@ while should_continue != "n":
     print_end_game_status(user_hand, dealer_hand, record)
     should_continue = input("Do you want to play another hand (y/n)? ")
     if should_continue == "n":
+        print("Thank you for playing the Blackjack Game!")
         break
