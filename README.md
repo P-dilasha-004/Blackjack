@@ -27,7 +27,7 @@ Players can continue to "Hit" until they choose to "Stand" or their hand value e
 ### Clone the repository:
 ```bash
 git clone https://github.com/yourusername/Blackjack.git
-cd blackjack-game
+cd Blackjack
 ```
 Run the game:
 ```bash
