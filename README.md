@@ -50,6 +50,77 @@ python blackjack.py
           The dealer automatically "Hits" until their hand value is 17 or higher.
 + **Scoring:** Each player starts with a score of 3, and their score is updated based on the outcome of each round.
 
+# Example Gameplay 
+```text
+Welcome to Blackjack! How many players? 2
+What is player 1's name? Player 1 
+What is player 2's name? Player 2
+-----------
+Player 1's TURN
+-----------
+Drew a 5
+Drew a 7
+You have 12. Hit (y/n)? y
+Drew a Queen
+Final hand: 22.
+BUST.
+-----------
+Player 2's TURN
+-----------
+Drew a Jack
+Drew a 6
+You have 16. Hit (y/n)? n
+Final hand: 16.
+-----------
+DEALER's TURN
+-----------
+Drew a 9
+Drew a 4
+Dealer has 13.
+Drew an 8
+Final hand: 21.
+BLACKJACK!
+-----------
+GAME RESULT
+-----------
+Player 1 loses! Score: 2
+Player 2 loses! Score: 2
+Do you want to play another hand (y/n)? y
+-----------
+Player 1's TURN
+-----------
+Drew a 4
+Drew a 5
+You have 9. Hit (y/n)? y
+Drew a 3
+You have 12. Hit (y/n)? y
+Drew an 8
+You have 20. Hit (y/n)? n
+Final hand: 20.
+-----------
+Player 2's TURN
+-----------
+Drew a 5
+Drew a King
+You have 15. Hit (y/n)? y
+Drew an 8
+Final hand: 23.
+BUST.
+-----------
+DEALER's TURN
+-----------
+Drew an Ace
+Drew an Ace
+Final hand: 22.
+BUST.
+-----------
+GAME RESULT
+-----------
+Player 1 wins! Score: 3
+Player 2 loses! Score: 1
+Do you want to play another hand (y/n)? n
+```
+
 # Contributing
 Contributions are welcome! Here's how you can help:
 
