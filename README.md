@@ -119,6 +119,7 @@ GAME RESULT
 Player 1 wins! Score: 3
 Player 2 loses! Score: 1
 Do you want to play another hand (y/n)? n
+Thank you for playing the Blackjack Game!
 ```
 
 # Contributing
